@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge: Encriptador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body class="body">
+    <header class="header" >
+<div> 
+        <h1 class="titulo" >Bienvenidos al Challenge: Encriptador de Texto.</h1></div>
+ 
+ <div>
+    <a href="https://www.aluracursos.com/">
+ <img src="alura_latam_logo.jpg" alt="Logotipo de Alura Latam" class="imagen"></a>
+</div>
+    </header>
+
+
+    <main>
+<p class="anuncio">Este challenge forma parte de las actividades de Alura Latam y Oracle, en el programa ONE para la G7. </p>
+
+ <div class="encriptador">
+<label for="text_in">Escribe tu texto aquí:</label>
+<textarea type="text" id="text_in" name="text_in" rows="4" cols="50" placeholder="Escribe tu texto aquí."></textarea>
+<button class="boton1" type="button" onclick="encriptar()">Cifrar →</button>
+<button class="boton2" type="button" onclick="descriptar()">Descifrar ←</button>
+
+
+<label for="text_def">Tu texto es:</label>
+<textarea type="text" id="text_def" name="text_def" rows="4" cols="50" placeholder="Tu texto de salida está aquí."></textarea>
+
+<button class="boton3" id="botonCopiar" type="button" onclick="copiar()">Copiar código</button>
+<button class="boton4" id="botonclear" type="button" onclick="clearText()">Clear</button>
+
+<p class="nota">No se aceptarán mayúsculas ni carácteres especiales.</p>
+ </div>
+    </main>
+
+    <footer class="footer">
+<P><a class="nombre" href="https://www.linkedin.com/in/arturo-javier-borbon-rojas-388648282/">Arturo Borbon</a> | Alura Latam Oracle ONE G7 | Agosto 2024</P>
+<a href="https://github.com/ArturoJavierBorbonRojas">
+<img src="github-mark-white.png" alt="Logotipo de Github" class="logo1"></a>
+
+<a href="https://www.linkedin.com/in/arturo-javier-borbon-rojas-388648282/">
+<img src="LI-In-Bug.png" alt="Logotipo de LinkedIn" class="logo2"></a>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,186 @@
+
+:root{
+    --color-prim:white ;
+    --color-sec: green ;
+    --color-ter:blue ;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    --fuente-times:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ;
+    --fuente-arial:Arial, Helvetica, sans-serif  ;
+}
+
+.header{
+    color:rgb(0, 0, 0);
+    padding:10px;
+    margin: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-style:none;
+    border-bottom:solid;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+}
+.imagen{
+ text-align:end;
+ align-items: end;
+ display: flex;
+ flex-direction: row;
+ width: 50px;
+ transition: 2s;
+}
+
+.imagen:hover{
+    border:5px;
+    border-style: dashed;
+    border-color: yellowgreen;
+    transform: scale(1.5);
+}
+
+
+.titulo{
+    color: black;
+}
+
+.body{
+    gap:10px;
+    background-color:palegreen ; 
+
+}
+
+.anuncio{
+border-style:none;
+border-bottom:solid yellow;
+padding: 5px 5px 5px;
+margin-bottom: 10px;
+
+}
+.nota{
+    font-style: italic;
+}
+
+.encriptador{
+    background-color: aliceblue;
+    padding: 10%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align:justify;
+    flex-grow:1;
+    gap:10px;
+}
+
+.boton1{
+    cursor:pointer;
+    background-color: rgb(207, 206, 187);
+    transition:background-color 1s, transform 1s;
+    color: rgb(0, 0, 0);
+    transition: 2s;
+    border-radius: 10px;
+}
+
+.boton1:hover{
+    transform: scale(1.10);
+    border-style:solid;
+    background-color:aquamarine;
+    transition:2s;
+    border-radius: black;
+    color:rgb(223, 32, 32);
+}
+
+.boton2{
+    cursor:pointer;
+    background-color: rgb(160, 155, 155);
+    transition:background-color 1s, transform 1s;
+    color: rgb(0, 0, 0);
+    transition: 2s;
+    border-radius: 10px;
+}
+
+.boton2:hover{
+    transform: scale(1.10);
+    border-style:solid;
+    background-color:rgb(43, 228, 18);
+    transition:2s;
+    border-radius: black;
+    color:white;
+}
+
+.boton3{
+    color:black;
+    background-color: antiquewhite;
+    cursor:pointer;
+    border-radius: 10px;
+    transition: 2s;
+}
+
+.boton3:hover{
+    border-color: rgb(0, 0, 0);
+    background-color: brown;
+    border-style: solid;
+    transition: 2s;
+    color: bisque;
+}
+
+.boton4{
+    color:black;
+    background-color: rgb(201, 186, 166);
+    cursor:pointer;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.boton4:hover{
+    border-color: black;
+    background-color: rgb(201, 255, 5);
+    border-style: solid;
+    transition: 1s;
+}
+
+
+.footer{
+    margin:1px;
+    padding:1px;
+    align-items: center;
+    text-align: center;
+    border-style:double;
+    padding: 5px;
+    margin: 5px;
+    background-color:wheat;
+    
+}
+
+.nombre{
+    color: rgb(0, 0, 0);
+    transition:2s;
+    cursor:pointer;
+    text-decoration: none;
+
+}
+.nombre:hover{
+    color: rgb(0, 47, 255);
+    transition: 2s;
+
+}
+
+.logo1{
+    width:3%;
+    transition: 1s;
+}
+
+.logo2{
+    width:3%;
+    transition:1s;
+    padding-left: 10px;
+}
+
+.logo1:hover{
+    transform: scale(2);
+    cursor:pointer;
+
+}
+
+.logo2:hover{
+    transform:scale(2);
+    cursor:pointer;
+}
